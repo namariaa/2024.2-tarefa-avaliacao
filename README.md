@@ -25,7 +25,7 @@ Considere as funções e objetivos principais de um sistema operacional conforme
 
 **Dica**: Pense em exemplos práticos de como o sistema operacional realiza essas tarefas no dia a dia de um usuário.
 
-**Resposta**: O SO serve como uma espécie de interface que "esconde" detalhes de operação  do desenvolvedor e ele faz isso gerenciando tarefas e recursos (processadores, memória, discos,...) conciliando as requisições feitas ao hardware de forma rápida. Quando falamos do gerenciamento de recurso o SO é resposável pela distribuição otimizada do processador durante a execução de tarefas e do espaço de armazenamento.
+**Resposta**: O SO serve como uma espécie de interface que "esconde" detalhes de operação do hardware do desenvolvedor e ele faz isso gerenciando tarefas e recursos (processadores, memória, discos,...) conciliando as requisições feitas ao hardware de forma rápida. Quando falamos do gerenciamento de recurso o SO é resposável pela distribuição otimizada do processador durante a execução de tarefas e do espaço de armazenamento.
 O seus principais objetivos são: 
 - Gerência do processador: Distribuindo a capacidade do processador, como foi citado acima 
 - Gerência de memória: Fornecimento de um espaço de memória específico para cada aplicação de acordo com as necessidades 
