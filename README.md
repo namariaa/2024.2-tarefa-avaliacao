@@ -1,5 +1,9 @@
 # 2024.2 Avaliação do 1o período de Sistemas Operacionais
 
+## Informações pessoais 
+- Aluna: Ana Maria Ferreira de Abreu Guedes
+- Matrícula: 20232014040001 
+
 ## Informações gerais
 - **Objetivo do repositório**: Avaliação do 1o bimestre da Disciplina de sistemas operacionais do curso de TADS do IFRN-CNAT
 - **Público alvo**: alunos da disciplina de SO (Sistemas Operacionais) do curso de TADS (Superior em Tecnologia em Análise e Desenvolvimento de Sistemas) no CNAT-IFRN (Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte - Campus Natal-Central).
@@ -21,7 +25,14 @@ Considere as funções e objetivos principais de um sistema operacional conforme
 
 **Dica**: Pense em exemplos práticos de como o sistema operacional realiza essas tarefas no dia a dia de um usuário.
 
-**Copilot informa**: Essa questão incentiva os alunos a explorarem os conceitos fundamentais e a aplicarem o conhecimento teórico em situações práticas. Se precisar de mais alguma coisa, estou aqui para ajudar!
+**Resposta**: O SO serve como uma espécie de interface que "esconde" detalhes de operação  do desenvolvedor e ele faz isso gerenciando tarefas e recursos (processadores, memória, discos,...) conciliando as requisições feitas ao hardware de forma rápida. Quando falamos do gerenciamento de recurso o SO é resposável pela distribuição otimizada do processador durante a execução de tarefas e do espaço de armazenamento.
+O seus principais objetivos são: 
+- Gerência do processador: Distribuindo a capacidade do processador, como foi citado acima 
+- Gerência de memória: Fornecimento de um espaço de memória específico para cada aplicação de acordo com as necessidades 
+- Gerência de dispositivos: Gerenciamento de periféricos através da detecção desses dispositivos de entrada/saída e utilização de drivers para isso
+- Gerência de arquivos: Criação de arquivos e diretórios 
+- Gerência de proteção: Colocar níveis de acesso e permissões que cada usuário ode acessar  
+
 
 # Questão 2. Estrutura de sistemas operacionais
 
