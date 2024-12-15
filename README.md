@@ -114,8 +114,8 @@ Considerando os mecanismos de segurança discutidos, analise como a implementaç
 
 **Dica:** Pense em como esses mecanismos são aplicados em sistemas operacionais que você utiliza no dia a dia, como Windows, Linux ou macOS.
 
-**Copilot informa**: Essa questão incentiva os alunos a refletirem sobre o equilíbrio entre segurança, performance e usabilidade, aplicando conceitos teóricos a contextos práticos.
-
+**Resposta:** Quando se trata a controle de acesso ele divide em modo usuário e kernel com diferenças apenas no nível de acesso a funcionalidades que cada um possui isso serve como uma forma de proteção para o núcleo do sistemas e não tornar ele vunerável a alterções de processo indévidos que acarretem problemas no funcionamento como um todo. Isso traz um ambiente mais seguro para o usuário de proteção de dados pois o controle de acesso responde rapidamente a qualquer atividade suspeita.
+E quando se trata de criptografia ela tem uma papel crucial também na segurança trazendo confiabilidade para os usuários e assim como o controle de acesso ele traz um significativa importância na proteção de dados e conteúdos e como diferenciação tem uma função contra cópias.
 
 # Questão 4. Custo de Processamento versus Algoritmo Ótimo de Escalonamento
 
