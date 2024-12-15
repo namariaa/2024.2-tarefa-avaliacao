@@ -79,8 +79,15 @@ Com base no texto sobre a estrutura de sistemas operacionais, analise como as di
 
 **Dica:** Utilize exemplos de sistemas operacionais reais que adotam essas arquiteturas para ilustrar sua análise.
 
-**Copilot informa**: Essa questão incentiva os alunos a considerarem tanto os aspectos econômicos quanto os de segurança ao avaliar diferentes arquiteturas de sistemas operacionais.
+**Reposta:** Existem diferentes arquiteturas pelos diversos tipo de organização possível dos componentes do SO e a escolha influi bastante para o funcionamento interno. Falaremos agora sobre optar-se pela escolha de algumas arquiteturas:
+- Arquiterura monolítica: Apesar dos componetes do sistema serem compilados em módulos separados eles são unificados em um único programa executável o que posteriormente pode acarretar em um grande comprometimento do sistema caso houver problemas em algum dos processos, desencadeando erros no núcleo do sistema pois essa arquitetura utilizada o modo kernel (núcleo, que é responsável pela comunicação entre os processos e gerências de memória, processador, dispositvos perifericos e de sistemas de arquivos). Apesar de não ser de complexa implementação, pelos problemas citados anteriormente a gerência se torna algo difícil tornando essencial uma equipe especializada para a manuntenção e atualizações. Um exemplo de seu uso foi na primeira versão do linux.
+![sistemas_operacionais_a01_f05_a](https://github.com/user-attachments/assets/a829dcde-7e45-4834-adfb-c6a762d746e8)
 
+- Arquitetura kernel/micro-núcleo: Retira todos os aspectos de alto nível como controle de acesso aos recursos fora do núcleo e mantém apenas código de baixo nível com propósito de interação com o hardware. Os processos não possuem acesso a componentes do sistema e isso torna a margem de erro total menor, pois se ocorrer um erro em uma das partes não prejudicará todo o sistema isso se deve pela proteção do núcleo nesse processo trazendo uma maior segurança apesar de sua implementação ser mais complexa e custosa sua manunteção é facilitada e "barata".
+![kernel2](https://github.com/user-attachments/assets/b9567f28-aef0-4bc7-8f91-6b6a910e84c7)
+
+- Arquitetura em camadas: Com o aumento de complexidade dos So's essa arquitetura dividiu o processo em níveis onde os inferiores (provem interaface com o hardware) e as intermediárias (provem abstração) se comunicam com os níveis superiores(interface para as aplicações). Como principais vantagens podemos citar o isolomento das camadas que resulta em uma maior segurança e proteção. Quando falamos das principais desvantagens podemos citar um menor desempenho pela mudança constante de modo de acesso pois quando uma aplicação faz uma solicitação para o kernel é necessário passar por diversa camadas. Apesar do fácil desenvolvimento não possui fácil facilidade implantação pois uma pequena mudança em um componente pode gerar a necessidade colocar toda a aplicação no ar novamente.
+  
 # Questão 3. Introdução à Segurança de Sistemas Operacionais
 
 ## Texto informativo
